@@ -1,0 +1,15 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./styles.css";
+import Portfolio from "./components/Portfolio";
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Portfolio />} />
+        </Routes>
+    </Router>
+  );
+}
+
+export default App;
